@@ -1,0 +1,110 @@
+*{
+  margin: 0.5rem;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgba(2, 255, 129, 0.493);
+  text-align: center;
+  align-items: center;
+} 
+
+.button{
+  background-color: rgb(85, 212, 149);
+  color: rgb(5, 95, 17);
+  display: inline-flex;
+  height: 5rem;
+  align-items: center;
+  padding: 0 4rem;
+  font: 500 1rem 'Dm Sans', sans-serif; 
+  border-radius: 5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0px 10px black;
+}
+ 
+.button:hover {
+  background-color: rgba(0, 174, 255, 0.651);
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.384);
+}
+
+.h1home{
+  font-size: 4rem;
+}
+
+.h1exercicios{
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h2{
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+h3{
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.phome{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.images{
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 2rem;
+  width: 75rem;
+}
+
+.imgdado{
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 6rem;
+  width: 25rem;
+}
+
+label{
+  font-size: 1.5rem;
+}
+
+input{
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+fieldset{
+  margin-bottom: 1rem;
+  background-color: rgb(139, 247, 193);
+  box-shadow: 0 0px 10px black;
+  font: bold 1.5rem 'Dm Sans', sans-serif;
+}
+
+.enviar{
+  background-color: rgb(85, 212, 149);
+  color: rgb(5, 95, 17);
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+
+.enviar:hover {
+  background-color: rgba(0, 174, 255, 0.651);
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.384);
+}
+
+.campoescrita{
+  background-color: rgb(150, 219, 252);
+}
+
+.campopcoes{
+  background-color: rgb(150, 219, 252);
+  font-size: 1.5rem;
+}
+
+.creditos{
+  margin-top: 2rem;
+}
